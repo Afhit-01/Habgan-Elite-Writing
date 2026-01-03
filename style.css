@@ -498,6 +498,9 @@ header.scrolled {
 }
 
 .testimonial-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: white;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
     padding: 40px 30px;
@@ -515,7 +518,7 @@ header.scrolled {
 
 .testimonial-content {
     position: relative;
-    margin-bottom: bottom;
+    margin-bottom: 15px;
 }
 
 .quote-icon {
